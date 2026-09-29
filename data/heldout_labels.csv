@@ -1,0 +1,41 @@
+id,label,rule,confidence,note
+rc01,FLAG,F4,low,marketing call to action to invest SRS money
+rc02,FLAG,F4,low,marketing imperative pointing the reader at the cash product
+rc03,PASS,P1,high,
+rc04,PASS,P1,high,
+rc05,PASS,P3,high,"design-target statement, not tied to the reader"
+rc06,PASS,P1,low,"forward-looking, but a risk description rather than a merit opinion"
+rc07,PASS,P2,high,
+rc08,FLAG,F4,high,
+rc09,PASS,P1,high,
+rc10,PASS,P2,high,
+rc11,PASS,P1,high,
+rc12,PASS,P1,high,
+rc13,PASS,P1,low,"imperative wording, but the content is an eligibility fact"
+rc14,FLAG,F4,low,marketing imperative to move SRS cash into investments
+rc15,PASS,P1,high,process step
+rc16,PASS,P1,low,mentions risk profile only to explain the yield range
+rc17,PASS,P4,high,
+rc18,PASS,P4,low,"generic principle, though it leans towards encouraging CPF investing"
+rc19,PASS,P1,high,
+rc20,PASS,P1,low,"process step listing both options, not a recommendation of either"
+rc21,FLAG,"F3,F4",high,
+rc22,PASS,P1,high,process step
+rc23,FLAG,F4,low,"generic imperative, but it is an action instruction on the product page"
+rc24,PASS,P2,high,
+rc25,PASS,P1,high,
+rc26,PASS,P1,high,product term; advice vocabulary used factually
+rc27,PASS,P1,high,
+rc28,FLAG,F1,high,
+rc29,PASS,P1,low,lists the two ways to use the platform
+rc30,FLAG,F5,low,endorses the platform for a type of investor
+rc31,PASS,P1,high,
+rc32,FLAG,F4,high,
+rc33,PASS,P1,high,
+rc34,PASS,P2,high,
+rc35,PASS,P1,low,"favourable, but a claim about past results"
+rc36,FLAG,F4,low,"presents options, but the second clause is an action suggestion"
+rc37,PASS,P1,high,
+rc38,FLAG,"F2,F4",high,
+rc39,PASS,P1,high,standard risk disclosure; advice vocabulary used factually
+rc40,PASS,P1,high,
