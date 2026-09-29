@@ -70,5 +70,5 @@ def test_evaluation_reproduces_committed_metrics(tmp_path):
 
 
 def test_no_api_key_in_repo():
-    out = subprocess.run(["git", "-C", str(REPO), "grep", "-l", "sk-or-v1-"], capture_output=True, text=True)
+    out = subprocess.run(["git", "-C", str(REPO), "grep", "-l", "sk-or-" + "v1-"], capture_output=True, text=True)
     assert out.stdout.strip() == ""
