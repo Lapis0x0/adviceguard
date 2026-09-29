@@ -1,0 +1,6 @@
+{
+  "n": 109,
+  "tfidf_top1_hit": 0.5872,
+  "dense_bge_small_top1_hit": 0.6147,
+  "agree_same_card": 0.4128
+}

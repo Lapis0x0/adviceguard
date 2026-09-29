@@ -1,0 +1,41 @@
+id,text,platform,label,pred_keyword,pred_tfidf,pred_llm,p_flag,decision
+rc01,Get tax relief with SRS contributions and invest them to grow beyond 0.05% p.a.,Endowus,FLAG,0,0,1,0.9875689999999999,HOLD
+rc02,"Maximise your cash with higher yields, with no lock ups and no limits.",Endowus,FLAG,0,0,1,0.998073,FLAG
+rc03,Our advisors don’t earn commissions.,Endowus,PASS,0,0,0,0.0,PASS
+rc04,"Portfolio performance includes fund-level fees and does not include Endowus Fee, which range from 0.05% to 0.60% per annum depending on investment objective, source of investment (CPF, SRS or Cash) and client assets under advice (“AUA”).",Endowus,PASS,1,0,0,0.0,PASS
+rc05,Suitable for immediate and near-term cash needs.,Endowus,PASS,1,1,1,0.9999939999999999,FLAG
+rc06,"Absolute fall in value (drawdowns) are highly unlikely, with any negative returns expected to be minimal.",Endowus,PASS,0,0,1,0.9324549999999999,HOLD
+rc07,Enhanced combines a short duration fund with two cash and money market funds to target a higher yield than Secure.,Endowus,PASS,0,0,0,0.0,PASS
+rc08,"If you have cash set aside for an upcoming expense, earn higher returns on it instead of letting it sit in your current or savings account.",Endowus,FLAG,0,0,1,1.0,FLAG
+rc09,Secure combines a cash fund that invests in institutional fixed deposits with one of Singapore’s best-performing money market funds.,Endowus,PASS,1,0,0,0.0,PASS
+rc10,"Drawdowns can be sharper with a prolonged recovery period compared to Enhanced, although the maximum negative returns are expected to be in the low single digits.",Endowus,PASS,0,0,0,0.0,PASS
+rc11,Endowus Cash Smart is available for Cash and SRS investment.,Endowus,PASS,0,0,0,0.0,PASS
+rc12,"When you create an Endowus account, we will create a trust account in your own name at UOB Kay Hian, Singapore's largest broker.",Endowus,PASS,0,0,0,0.0,PASS
+rc13,"Get SRS tax relief of up to $15,300 a year max contribution for Singaporeans and PRs (or up to $35,700 for foreigners).",Endowus,PASS,0,0,0,0.0,PASS
+rc14,Grow your savings beyond the meagre 0.05% p.a in SRS bank account,Endowus,FLAG,0,0,1,0.985937,HOLD
+rc15,"Open an SRS account with an agent bank (DBS, OCBC or UOB).",Endowus,PASS,0,0,0,0.0,PASS
+rc16,"Depending your risk profile, you can earn yields from 1.3% to 2.5% p.a.*",Endowus,PASS,0,1,1,0.7773129999999999,HOLD
+rc17,Time in markets is more important than timing markets.,Endowus,PASS,0,0,0,0.0,PASS
+rc18,Investing your CPF Ordinary Account (OA) savings early on unlocks the power of compounding.,Endowus,PASS,0,0,0,0.029318999999999998,HOLD
+rc19,Funds are deducted from your CPF directly.,Endowus,PASS,0,0,0,0.0,PASS
+rc20,Choose the Flagship CPF Portfolio or build your own with Fund Smart.,Endowus,PASS,0,1,1,0.998073,FLAG
+rc21,Put your idle money to work in ultra-low-risk portfolios.,StashAway,FLAG,0,1,1,1.0,FLAG
+rc22,Fund your portfolio with cash or SRS — either as a one-time deposit or set up a recurring schedule.,StashAway,PASS,0,1,0,4.5e-05,PASS
+rc23,Invest every month.,StashAway,FLAG,0,0,1,1.0,FLAG
+rc24,"Unlike fixed deposit accounts that require a minimum lock-up period, you can withdraw from StashAway Simple™ at any time.",StashAway,PASS,0,0,0,0.0,PASS
+rc25,Simple Plus offers a yield to maturity of 2.7% (last updated 17 July 2026) for slightly higher risk.,StashAway,PASS,0,0,0,0.0,PASS
+rc26,Recommended holding period of at least 12 months.,StashAway,PASS,1,0,0,0.000261,PASS
+rc27,"The fund manager may buy or sell securities in response to market conditions or investment strategy changes, which can impact the actual return.",StashAway,PASS,1,0,0,0.0,PASS
+rc28,It's simply the smarter way to save.,StashAway,FLAG,0,0,1,0.999992,FLAG
+rc29,Choose managed portfolios or invest on your own.,Syfe,PASS,0,0,0,6.6e-05,PASS
+rc30,"For beginners, the best digital wealth manager platform in Singapore is one that combines simplicity, affordability, and automation; and Syfe is designed with these features in mind.",Syfe,FLAG,1,0,1,0.731076,HOLD
+rc31,"For managed portfolios, there are no brokerage commissions, no entry fees, and no exit fees; you only pay a single management fee that covers portfolio management, rebalancing, and account services.",Syfe,PASS,0,0,0,0.0,PASS
+rc32,Find a better place for your idle cash.,Syfe,FLAG,1,1,1,0.9999979999999999,FLAG
+rc33,Cash+ Flexi is a low-risk investment portfolio managed by Syfe.,Syfe,PASS,0,1,0,0.0,PASS
+rc34,"Returns on your Cash+ Flexi portfolio are accrued daily, unlike bank deposits where you receive your interest monthly.",Syfe,PASS,0,1,0,0.0,PASS
+rc35,Syfe Cash+ has never had a week of negative returns and consistently delivers stable returns.,Syfe,PASS,0,0,1,0.705803,HOLD
+rc36,"Opt for a 100% REITs portfolio, or diversify with bonds to offset volatility.",Syfe,FLAG,0,1,1,1.0,FLAG
+rc37,REIT+ dynamically tracks the iEdge S-REIT Leaders Index.,Syfe,PASS,0,0,0,0.0,PASS
+rc38,Get started with a portfolio that best suits your income needs.,Syfe,FLAG,1,1,1,1.0,FLAG
+rc39,"Investors should consider the investment objectives, risks, charges and expenses of the constituent funds carefully before investing.",Syfe,PASS,1,0,0,0.0,PASS
+rc40,Duration is a measure of the sensitivity of the price of a bond to a change in interest rates.,Syfe,PASS,0,0,0,0.0,PASS

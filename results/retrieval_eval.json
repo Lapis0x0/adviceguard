@@ -1,0 +1,703 @@
+{
+  "n_flag_items": 109,
+  "top1_hit_rate": 0.5872,
+  "top1_hit_rate_sentence_only_query": 0.3303,
+  "cited_card_counts": {
+    "doc_01": 2,
+    "doc_03": 4,
+    "doc_04": 12,
+    "doc_06": 5,
+    "doc_07": 3,
+    "doc_08": 35,
+    "doc_09": 1,
+    "doc_12": 23,
+    "doc_14": 10,
+    "doc_15": 2,
+    "doc_17": 7,
+    "doc_18": 1,
+    "doc_19": 4
+  },
+  "gold_mapping": {
+    "F1": [
+      "doc_03",
+      "doc_04"
+    ],
+    "F2": [
+      "doc_06",
+      "doc_07",
+      "doc_19"
+    ],
+    "F3": [
+      "doc_02",
+      "doc_12"
+    ],
+    "F4": [
+      "doc_08",
+      "doc_12"
+    ],
+    "F5": [
+      "doc_03",
+      "doc_07"
+    ],
+    "F6": [
+      "doc_05"
+    ]
+  },
+  "tau": 0.995,
+  "items": [
+    {
+      "id": "ab001",
+      "rule": "F2",
+      "cited": "doc_01",
+      "hit": false
+    },
+    {
+      "id": "ab003",
+      "rule": "F4",
+      "cited": "doc_03",
+      "hit": false
+    },
+    {
+      "id": "ab008",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab011",
+      "rule": "F4",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab014",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab016",
+      "rule": "F2",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab021",
+      "rule": "F2",
+      "cited": "doc_07",
+      "hit": true
+    },
+    {
+      "id": "ab022",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab026",
+      "rule": "F2",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab028",
+      "rule": "F3",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab029",
+      "rule": "F2",
+      "cited": "doc_03",
+      "hit": false
+    },
+    {
+      "id": "ab031",
+      "rule": "F2",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab034",
+      "rule": "F2",
+      "cited": "doc_19",
+      "hit": true
+    },
+    {
+      "id": "ab040",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab042",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab044",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab045",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab048",
+      "rule": "F2",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab049",
+      "rule": "F4,F6",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab056",
+      "rule": "F4,F6",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab060",
+      "rule": "F4,F6",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab061",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab065",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab067",
+      "rule": "F3",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab068",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab069",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab071",
+      "rule": "F5",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab072",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab073",
+      "rule": "F4",
+      "cited": "doc_06",
+      "hit": false
+    },
+    {
+      "id": "ab074",
+      "rule": "F2",
+      "cited": "doc_06",
+      "hit": true
+    },
+    {
+      "id": "ab075",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab076",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab078",
+      "rule": "F4",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab081",
+      "rule": "F2",
+      "cited": "doc_03",
+      "hit": false
+    },
+    {
+      "id": "ab082",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab084",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab086",
+      "rule": "F3",
+      "cited": "doc_01",
+      "hit": false
+    },
+    {
+      "id": "ab091",
+      "rule": "F2",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab101",
+      "rule": "F2",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab103",
+      "rule": "F2,F5",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab104",
+      "rule": "F2",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab105",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab106",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab112",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab114",
+      "rule": "F3",
+      "cited": "doc_15",
+      "hit": false
+    },
+    {
+      "id": "ab115",
+      "rule": "F4",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab119",
+      "rule": "F4,F6",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab122",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab124",
+      "rule": "F2",
+      "cited": "doc_07",
+      "hit": true
+    },
+    {
+      "id": "ab125",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab126",
+      "rule": "F3",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab127",
+      "rule": "F3",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab128",
+      "rule": "F2",
+      "cited": "doc_06",
+      "hit": true
+    },
+    {
+      "id": "ab132",
+      "rule": "F4",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab135",
+      "rule": "F3",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab136",
+      "rule": "F2",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab138",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab139",
+      "rule": "F4",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab140",
+      "rule": "F2",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab141",
+      "rule": "F2,F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab145",
+      "rule": "F5",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab148",
+      "rule": "F3",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab152",
+      "rule": "F2",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab153",
+      "rule": "F4,F5",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab154",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab155",
+      "rule": "F5",
+      "cited": "doc_09",
+      "hit": false
+    },
+    {
+      "id": "ab157",
+      "rule": "F2",
+      "cited": "doc_07",
+      "hit": true
+    },
+    {
+      "id": "ab159",
+      "rule": "F2",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab161",
+      "rule": "F4,F6",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab171",
+      "rule": "F1",
+      "cited": "doc_12",
+      "hit": false
+    },
+    {
+      "id": "ab172",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab174",
+      "rule": "F2,F5",
+      "cited": "doc_19",
+      "hit": true
+    },
+    {
+      "id": "ab176",
+      "rule": "F2,F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab178",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab179",
+      "rule": "F5",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab181",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab182",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab183",
+      "rule": "F2",
+      "cited": "doc_19",
+      "hit": true
+    },
+    {
+      "id": "ab184",
+      "rule": "F2",
+      "cited": "doc_12",
+      "hit": false
+    },
+    {
+      "id": "ab185",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab187",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab188",
+      "rule": "F3",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab190",
+      "rule": "F2",
+      "cited": "doc_19",
+      "hit": true
+    },
+    {
+      "id": "ab191",
+      "rule": "F3,F6",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab192",
+      "rule": "F2",
+      "cited": "doc_15",
+      "hit": false
+    },
+    {
+      "id": "ab193",
+      "rule": "F2",
+      "cited": "doc_17",
+      "hit": false
+    },
+    {
+      "id": "ab194",
+      "rule": "F2",
+      "cited": "doc_06",
+      "hit": true
+    },
+    {
+      "id": "ab196",
+      "rule": "F2,F6",
+      "cited": "doc_06",
+      "hit": true
+    },
+    {
+      "id": "ab197",
+      "rule": "F4,F6",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab198",
+      "rule": "F2",
+      "cited": "doc_18",
+      "hit": false
+    },
+    {
+      "id": "ab199",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab201",
+      "rule": "F2,F6",
+      "cited": "doc_12",
+      "hit": false
+    },
+    {
+      "id": "ab202",
+      "rule": "F2",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab204",
+      "rule": "F2,F6",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab206",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab210",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab212",
+      "rule": "F1",
+      "cited": "doc_12",
+      "hit": false
+    },
+    {
+      "id": "ab213",
+      "rule": "F4",
+      "cited": "doc_03",
+      "hit": false
+    },
+    {
+      "id": "ab217",
+      "rule": "F2",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab225",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    },
+    {
+      "id": "ab226",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab230",
+      "rule": "F2",
+      "cited": "doc_04",
+      "hit": false
+    },
+    {
+      "id": "ab231",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab233",
+      "rule": "F4",
+      "cited": "doc_14",
+      "hit": false
+    },
+    {
+      "id": "ab235",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab236",
+      "rule": "F2,F6",
+      "cited": "doc_12",
+      "hit": false
+    },
+    {
+      "id": "ab237",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab239",
+      "rule": "F4",
+      "cited": "doc_08",
+      "hit": true
+    },
+    {
+      "id": "ab240",
+      "rule": "F4",
+      "cited": "doc_12",
+      "hit": true
+    }
+  ]
+}
