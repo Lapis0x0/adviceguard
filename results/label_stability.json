@@ -1,0 +1,41 @@
+{
+  "n": 60,
+  "agree": 59,
+  "percent_agreement": 0.9833,
+  "cohen_kappa": 0.9667,
+  "pass1_counts": {
+    "PASS": 30,
+    "FLAG": 30
+  },
+  "pass2_counts": {
+    "PASS": 29,
+    "FLAG": 31
+  },
+  "agreement_by_zone": {
+    "clear_pass": {
+      "n": 18,
+      "agree": 18
+    },
+    "clear_flag": {
+      "n": 18,
+      "agree": 18
+    },
+    "grey": {
+      "n": 24,
+      "agree": 23
+    }
+  },
+  "low_confidence_pass1": 5,
+  "low_confidence_pass2": 9,
+  "low_confidence_both": 4,
+  "disagreements": [
+    {
+      "id": "ab171",
+      "text": "The dividend stock portfolio yielded 4.8% in 2023 versus 3.1% in 2021, a pattern that may carry some weight for forward-looking projections.",
+      "pass1": "PASS",
+      "pass2": "FLAG",
+      "final": "FLAG",
+      "reason": "Rule F1 covers a favourable forward-looking claim about an identifiable product. 'The dividend stock portfolio' is the platform's own product and 'a pattern that may carry some weight for forward-looking projections' invites the reader to extrapolate its rising yield. The reference pass read it as a bare historical fact; the rule as written supports FLAG."
+    }
+  ]
+}

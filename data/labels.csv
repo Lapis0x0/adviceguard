@@ -169,7 +169,7 @@ ab167,PASS,P2,high,
 ab168,PASS,P1,high,
 ab169,PASS,P2,high,
 ab170,PASS,P2,high,
-ab171,PASS,P1,low,"hints past yield predicts the future, but gives no opinion on buying"
+ab171,FLAG,F1,low,adjudicated after the stability check (was PASS); see labeling/adjudication.csv
 ab172,FLAG,F4,high,
 ab173,PASS,P2,high,
 ab174,FLAG,"F2,F5",high,
