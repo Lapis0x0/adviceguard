@@ -1087,6 +1087,116 @@
     ],
     "llm_misses": []
   },
+  "operating_points": [
+    {
+      "tau": 0.5,
+      "test_hold_rate": 0.0,
+      "test_recall_stopped": 0.8983,
+      "test_missed": 6,
+      "test_grey_missed": 6,
+      "heldout_hold_rate": 0.0,
+      "heldout_stopped_precision": 0.6875
+    },
+    {
+      "tau": 0.6,
+      "test_hold_rate": 0.0083,
+      "test_recall_stopped": 0.9153,
+      "test_missed": 5,
+      "test_grey_missed": 5,
+      "heldout_hold_rate": 0.0,
+      "heldout_stopped_precision": 0.6875
+    },
+    {
+      "tau": 0.7,
+      "test_hold_rate": 0.025,
+      "test_recall_stopped": 0.9322,
+      "test_missed": 4,
+      "test_grey_missed": 4,
+      "heldout_hold_rate": 0.0,
+      "heldout_stopped_precision": 0.6875
+    },
+    {
+      "tau": 0.8,
+      "test_hold_rate": 0.025,
+      "test_recall_stopped": 0.9322,
+      "test_missed": 4,
+      "test_grey_missed": 4,
+      "heldout_hold_rate": 0.075,
+      "heldout_stopped_precision": 0.6875
+    },
+    {
+      "tau": 0.9,
+      "test_hold_rate": 0.0333,
+      "test_recall_stopped": 0.9322,
+      "test_missed": 4,
+      "test_grey_missed": 4,
+      "heldout_hold_rate": 0.075,
+      "heldout_stopped_precision": 0.6875
+    },
+    {
+      "tau": 0.95,
+      "test_hold_rate": 0.0417,
+      "test_recall_stopped": 0.9492,
+      "test_missed": 3,
+      "test_grey_missed": 3,
+      "heldout_hold_rate": 0.1,
+      "heldout_stopped_precision": 0.6875
+    },
+    {
+      "tau": 0.98,
+      "test_hold_rate": 0.0417,
+      "test_recall_stopped": 0.9492,
+      "test_missed": 3,
+      "test_grey_missed": 3,
+      "heldout_hold_rate": 0.125,
+      "heldout_stopped_precision": 0.6471
+    },
+    {
+      "tau": 0.99,
+      "test_hold_rate": 0.0583,
+      "test_recall_stopped": 0.9661,
+      "test_missed": 2,
+      "test_grey_missed": 2,
+      "heldout_hold_rate": 0.175,
+      "heldout_stopped_precision": 0.6471
+    },
+    {
+      "tau": 0.995,
+      "test_hold_rate": 0.075,
+      "test_recall_stopped": 0.9831,
+      "test_missed": 1,
+      "test_grey_missed": 1,
+      "heldout_hold_rate": 0.175,
+      "heldout_stopped_precision": 0.6471
+    },
+    {
+      "tau": 0.999,
+      "test_hold_rate": 0.0833,
+      "test_recall_stopped": 0.9831,
+      "test_missed": 1,
+      "test_grey_missed": 1,
+      "heldout_hold_rate": 0.225,
+      "heldout_stopped_precision": 0.6471
+    },
+    {
+      "tau": 0.9999,
+      "test_hold_rate": 0.1,
+      "test_recall_stopped": 1.0,
+      "test_missed": 0,
+      "test_grey_missed": 0,
+      "heldout_hold_rate": 0.25,
+      "heldout_stopped_precision": 0.6111
+    },
+    {
+      "tau": 0.99999,
+      "test_hold_rate": 0.125,
+      "test_recall_stopped": 1.0,
+      "test_missed": 0,
+      "test_grey_missed": 0,
+      "heldout_hold_rate": 0.3,
+      "heldout_stopped_precision": 0.55
+    }
+  ],
   "cost": {
     "calls_measured": 240,
     "mean_prompt_tokens": 618.3,

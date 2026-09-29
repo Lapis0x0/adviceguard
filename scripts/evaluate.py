@@ -200,6 +200,15 @@ def main() -> None:
                     "llm_false_flags": h[(h.pred_llm == 1) & (h.y == 0)][["id", "text", "p_flag"]].to_dict("records"),
                     "llm_misses": h[(h.pred_llm == 0) & (h.y == 1)][["id", "text", "p_flag"]].to_dict("records")}
 
+    # ---- operating points: what each tau costs the reviewer and what it misses
+    ops = []
+    for t in taus:
+        st_, sh_ = system_metrics(test, system_decisions(test, t)), system_metrics(h.assign(zone="real"), system_decisions(h, t))
+        ops.append({"tau": t, "test_hold_rate": st_["hold_rate"], "test_recall_stopped": st_["recall_stopped_before_send"],
+                    "test_missed": len(st_["missed_flags"]), "test_grey_missed": int(sum(test.set_index("id").loc[i, "zone"] == "grey" for i in st_["missed_flags"])),
+                    "heldout_hold_rate": sh_["hold_rate"], "heldout_stopped_precision": sh_["stopped_precision"]})
+    M["operating_points"] = ops
+
     # ---- cost and latency (measured)
     n = len(d)
     rule_rate_all = d.text.map(rule_layer).notna().mean()
@@ -244,6 +253,9 @@ def plot_curve(test_curve, all_curve, tau) -> None:
         ax.plot(xs, ys, style, label=name, ms=4)
     sel = [c for c in all_curve if c["tau"] == tau][0]
     ax.axvline(sel["abstain_rate"], color="grey", lw=0.8, ls=":")
+    base = all_curve[0]["total_errors"] / 240
+    ax.axhline(base, color="red", lw=0.8, ls="--")
+    ax.annotate(f"LLM error rate on all 240: {base:.1%}", (0.06, base + 0.02), fontsize=8, color="red")
     ax.annotate(f"chosen tau={tau}", (sel["abstain_rate"], 0.95), fontsize=8, ha="left")
     ax.set_xlabel("abstention rate (share of LLM-scored sentences held)")
     ax.set_ylabel("share of held sentences the LLM\nwould have got wrong")
@@ -312,6 +324,9 @@ def write_tables(M: dict) -> None:
           f"- system cost per 1,000 sentences after the rule layer handles {C['rule_layer_share_all']:.1%}: ${C['system_cost_per_1000_sentences_usd']}",
           f"- latency per call: p50 {C['latency_ms_p50']} ms, p95 {C['latency_ms_p95']} ms",
           f"- total API spend for this project: ${M['api_spend_total_usd']['total']} (generation ${M['api_spend_total_usd']['dataset_generation']}, classification ${M['api_spend_total_usd']['classification_runs']})"]
+    L += ["", "## Operating points by HOLD threshold", "", "| tau | test HOLD rate | test recall (stopped) | test misses | of which grey | real-copy HOLD rate | real-copy stopped precision |", "|---|---|---|---|---|---|---|"]
+    for o in M["operating_points"]:
+        L.append(f"| {o['tau']} | {o['test_hold_rate']} | {o['test_recall_stopped']} | {o['test_missed']} | {o['test_grey_missed']} | {o['heldout_hold_rate']} | {o['heldout_stopped_precision']} |")
     (RES / "tables.md").write_text("\n".join(L) + "\n")
 
 

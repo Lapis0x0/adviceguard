@@ -83,3 +83,20 @@ Test split: 120 sentences, {'PASS': 61, 'FLAG': 59}. Majority-class accuracy on 
 - system cost per 1,000 sentences after the rule layer handles 18.8%: $0.0917
 - latency per call: p50 1880.4 ms, p95 2502.8 ms
 - total API spend for this project: $0.3301 (generation $0.2469, classification $0.0832)
+
+## Operating points by HOLD threshold
+
+| tau | test HOLD rate | test recall (stopped) | test misses | of which grey | real-copy HOLD rate | real-copy stopped precision |
+|---|---|---|---|---|---|---|
+| 0.5 | 0.0 | 0.8983 | 6 | 6 | 0.0 | 0.6875 |
+| 0.6 | 0.0083 | 0.9153 | 5 | 5 | 0.0 | 0.6875 |
+| 0.7 | 0.025 | 0.9322 | 4 | 4 | 0.0 | 0.6875 |
+| 0.8 | 0.025 | 0.9322 | 4 | 4 | 0.075 | 0.6875 |
+| 0.9 | 0.0333 | 0.9322 | 4 | 4 | 0.075 | 0.6875 |
+| 0.95 | 0.0417 | 0.9492 | 3 | 3 | 0.1 | 0.6875 |
+| 0.98 | 0.0417 | 0.9492 | 3 | 3 | 0.125 | 0.6471 |
+| 0.99 | 0.0583 | 0.9661 | 2 | 2 | 0.175 | 0.6471 |
+| 0.995 | 0.075 | 0.9831 | 1 | 1 | 0.175 | 0.6471 |
+| 0.999 | 0.0833 | 0.9831 | 1 | 1 | 0.225 | 0.6471 |
+| 0.9999 | 0.1 | 1.0 | 0 | 0 | 0.25 | 0.6111 |
+| 0.99999 | 0.125 | 1.0 | 0 | 0 | 0.3 | 0.55 |
