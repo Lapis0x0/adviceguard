@@ -18,6 +18,15 @@ FLAG and HOLD get the nearest MAS/FAA clause card (TF-IDF over 20 cards) as a ci
 
 Orchestration is about 70 lines of plain Python (`adviceguard/pipeline.py`). No agent framework.
 
+**Documentation**
+
+| file | read it for |
+|---|---|
+| [`docs/PRODUCT.md`](docs/PRODUCT.md) | persona, input and output, architecture diagram, metrics targeted vs reached |
+| [`EVALS.md`](EVALS.md) | every evaluation: what it asks, how it is computed, where the code and outputs are |
+| [`data/README.md`](data/README.md) | how the synthetic set and the real held-out set were made, labelled and checked |
+| [`labeling/guideline.md`](labeling/guideline.md) | the labelling rules (FAA and MAS guidance as 11 rules) |
+
 ## Results (test half, 120 sentences, never used for tuning)
 
 | | precision | recall on flag class | grey-zone recall | block rate |
